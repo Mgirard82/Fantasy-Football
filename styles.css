@@ -137,7 +137,10 @@ footer {
   padding: 15px;
   margin-top: 30px;
   border-top: 4px solid #1a4d8f;
-  border: 2px solid #1a4d8f;
+}
+
+footer a {
+  color: white;
 }
 
 /* Table Styles */
@@ -249,5 +252,6 @@ footer {
   height: 30px; 
   width: auto;  
 }
+
 
 
