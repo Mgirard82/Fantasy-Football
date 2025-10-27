@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Advice - Fantasy Football</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/Logo.png" alt="Fantasy Football Logo" class="logo">
+      <h1>Fantasy Football Team & Recommendations</h1>
+    </div>
+    <input type="text" placeholder="Search Players...">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="myteam.html">My Team</a></li>
+        <li><a href="advice.html">Advice</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-wrapper">
+      <section class="main-section">
+        <h2>Get Personalized Fantasy Advice</h2>
+        <p>Stuck on a start/sit decision? Need trade advice? Fill out the form below, and our experts will analyze your situation based on matchup data, player trends, and expert rankings.</p>
+        
+        <img src="images/advice-chart.jpg" alt="Fantasy football analysis chart" style="width: 100%; max-width: 500px; margin: 20px 0; border-radius: 8px;">
+
+        <!-- REQUIRED FORM -->
+        <form class="advice-form" action="#" method="post">
+          <fieldset>
+            <legend>Your Team Information</legend>
+            
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="question-type">Type of Advice Needed:</label>
+            <select id="question-type" name="question_type" required>
+              <option value="">Select one...</option>
+              <option value="start-sit">Start/Sit Decision</option>
+              <option value="trade">Trade Analysis</option>
+              <option value="waiver">Waiver Wire Pickup</option>
+              <option value="draft">Draft Strategy</option>
+              <option value="other">Other</option>
+            </select>
+            
+            <label for="players-involved">Players Involved:</label>
+            <input type="text" id="players-involved" name="players_involved" placeholder="e.g., Mahomes vs. Allen, McCaffrey trade offer">
+            
+            <label for="league-settings">League Settings & Context:</label>
+            <textarea id="league-settings" name="league_settings" rows="4" placeholder="e.g., 12-team PPR, I'm 4-2, need WR help..."></textarea>
+          </fieldset>
+          
+          <input type="submit" value="Get Expert Advice">
+        </form>
+        <!-- END FORM -->
+
+      </section>
+
+      <aside class="quick-links">
+        <h3>Quick Advice</h3>
+        <ul>
+          <li><a href="#">Start/Sit Tool</a></li>
+          <li><a href="#">Trade Calculator</a></li>
+          <li><a href="#">Waiver Wire Rankings</a></li>
+          <li><a href="#">Injury Updates</a></li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <p>mgirar82@stu.jjc.edu | © 2025 Fantasy Football | <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
