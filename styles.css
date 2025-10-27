@@ -119,6 +119,15 @@ nav a:hover {
   text-decoration: underline;
   background-color: #dce8f5;
 }
+.sidebar-image {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sidebar-image img {
+  border: 2px solid #1a4d8f;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
 /* Category box inside main section */
 .category-box {
@@ -252,6 +261,7 @@ footer a {
   height: 30px; 
   width: auto;  
 }
+
 
 
 
