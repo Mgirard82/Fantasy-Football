@@ -26,19 +26,32 @@ header input {
   border: none;
 }
 
-nav {
-  margin-top: 15px;
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav li {
+  margin: 0;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 10px;
   font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #1a4d8f;
+  text-decoration: none;
 }
 
 .content-wrapper {
@@ -127,6 +140,86 @@ footer {
   border: 2px solid #1a4d8f;
 }
 
+/* Table Styles */
+.roster-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.roster-table th,
+.roster-table td {
+  border: 1px solid #1a4d8f;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.roster-table th {
+  background-color: #283e4a;
+  color: white;
+  font-weight: bold;
+}
+
+.roster-table tr:nth-child(even) {
+  background-color: #f0f7ff;
+}
+
+/* Form Styles */
+.advice-form {
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #1a4d8f;
+  margin: 20px 0;
+}
+
+.advice-form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.advice-form legend {
+  font-weight: bold;
+  color: #283e4a;
+  padding: 0 10px;
+}
+
+.advice-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.advice-form input[type="text"],
+.advice-form input[type="email"],
+.advice-form select,
+.advice-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.advice-form input[type="submit"] {
+  background: #283e4a;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.advice-form input[type="submit"]:hover {
+  background: #1a4d8f;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .content-wrapper {
@@ -138,6 +231,13 @@ footer {
     column-count: 1;
     margin-top: 20px;
   }
+  
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -145,10 +245,9 @@ footer {
   gap: 15px; 
 }
 
-.header-container .Logo {
+.header-container .logo {
   height: 30px; 
   width: auto;  
 }
 
-}
 
