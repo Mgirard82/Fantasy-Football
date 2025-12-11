@@ -7,27 +7,29 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <img src="images/Logo.png" alt="Fantasy Football Logo" class="logo">
-      <h1>Fantasy Football Team & Recommendations</h1>
-    </div>
-    <input type="text" placeholder="Search Players...">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="myteam.html">My Team</a></li>
-        <li><a href="advice.html">Advice</a></li>
-        <li><a href="resources.html">Resources</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div id="wrapper">
+    <header>
+      <div class="header-container">
+        <img src="images/Logo.png" alt="Fantasy Football Logo" class="logo">
+        <h1>Fantasy Football Team & Recommendations</h1>
+      </div>
+      <div class="header-controls">
+        <input type="search" placeholder="Search Players..." aria-label="Search players">
+        <nav>
+          <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="myteam.html">My Team</a></li>
+            <li><a href="advice.html">Advice</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main>
-    <div class="content-wrapper">
+    <main>
       <section class="main-section">
         <h2>Fantasy Football Resources & Tools</h2>
-        <p>Discover the best websites, applications, and tools to dominate your fantasy football league. These resources provide expert analysis, real-time updates, and advanced statistics.</p>
+        <p>Discover the best websites, applications, and tools to dominate your fantasy football league.</p>
 
         <div class="category-box">
           <h3>Resource Categories</h3>
@@ -39,14 +41,6 @@
           </ul>
         </div>
 
-        <div class="subheadings">
-          <h4>Essential Websites</h4>
-          <p>These platforms provide daily updates, expert consensus rankings, and the statistical tools you need to make informed decisions throughout the season.</p>
-
-          <h4>Mobile Applications</h4>
-          <p>Stay connected with your team on the go with these essential fantasy football mobile applications that provide push notifications for breaking news.</p>
-        </div>
-
         <div class="rankings">
           <h3>Top Recommended Sites</h3>
           <ul>
@@ -55,11 +49,6 @@
             <li><strong>ESPN Fantasy:</strong> Rankings and analysis</li>
             <li><strong>Rotoworld:</strong> Breaking news updates</li>
           </ul>
-        </div>
-
-        <div class="stats">
-          <h3>Tool Effectiveness</h3>
-          <p>Managers who regularly use these resources report a 35% higher playoff appearance rate compared to those who don't.</p>
         </div>
       </section>
 
@@ -71,20 +60,16 @@
           <li><a href="https://espn.com/fantasy" target="_blank">ESPN Fantasy</a></li>
           <li><a href="https://rotowire.com" target="_blank">RotoWire</a></li>
           <li><a href="https://sleeper.app" target="_blank">Sleeper App</a></li>
-          <li><a href="https://footballguys.com" target="_blank">FootballGuys</a></li>
-          <li><a href="https://numberfire.com" target="_blank">NumberFire</a></li>
         </ul>
-        
-      
-        <div class="sidebar-image">
-          <img src="images/espn.jpg" alt="ESPN Fantasy Football resources" style="width: 100%; margin-top: 20px; border-radius: 8px;">
-        </div>
+        <figure class="sidebar-image">
+          <img src="images/espn.jpg" alt="ESPN Fantasy Football resources" style="width:100%; border-radius:8px;">
+        </figure>
       </aside>
-    </div>
-  </main>
+    </main>
 
-  <footer>
-    <p>mgirar82@stu.jjc.edu | © 2025 Fantasy Football | <a href="#">Privacy Policy</a></p>
-  </footer>
+    <footer>
+      <p>mgirar82@stu.jjc.edu | © 2025 Fantasy Football | <a href="#">Privacy Policy</a></p>
+    </footer>
+  </div>
 </body>
 </html>
