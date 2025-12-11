@@ -1,50 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Fantasy Football</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Fantasy Football</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header>
-    <h1>Fantasy Football Central</h1>
-    <nav>
-        <ul>
+  <div id="wrapper">
+    <header>
+      <div class="header-container">
+        <img src="images/Logo.png" alt="Fantasy Football Logo" class="logo">
+        <h1>Fantasy Football Team & Recommendations</h1>
+      </div>
+      <div class="header-controls">
+        <input type="search" placeholder="Search Players..." aria-label="Search players">
+        <nav>
+          <ul class="main-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="myteam.html">My Team</a></li>
             <li><a href="advice.html">Advice</a></li>
             <li><a href="resources.html">Resources</a></li>
-        </ul>
-    </nav>
-</header>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<main>
-    <section class="intro">
-        <img src="images/fantasyfootball.jpg" alt="Fantasy Football Intro" class="hero-img">
-        <p>Fantasy Football is a game of skill, strategy, and competition. Build the best roster, make smart moves, and dominate your league.</p>
-    </section>
+    <main>
+      <section class="main-section">
+        <h2>Weekly Team Highlights</h2>
+        <p>This week's updates, team performance highlights, and roster adjustments.</p>
 
-    <section class="features">
-        <h2>What You’ll Find Here</h2>
+        <div class="category-box">
+          <h3>Categories</h3>
+          <ul>
+            <li>Start/Sit Picks</li>
+            <li>Waiver Wire</li>
+            <li>Injury Report</li>
+          </ul>
+        </div>
+
+        <div class="subheadings">
+          <h4>Start/Sit Decisions</h4>
+          <p>Recommended player lineups and matchup tips for this week.</p>
+          <h4>Injury Watch</h4>
+          <p>Latest updates on key players and how they impact your roster.</p>
+        </div>
+
+        <div class="rankings">
+          <h3>Top Rankings</h3>
+          <ul>
+            <li><strong>QB:</strong> Patrick Mahomes</li>
+            <li><strong>RB:</strong> Christian McCaffrey</li>
+            <li><strong>WR:</strong> Justin Jefferson</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside class="quick-links">
+        <h3>Quick Links</h3>
         <ul>
-            <li>Drafting and lineup management tips</li>
-            <li>Weekly matchup strategies</li>
-            <li>Player rankings and updates</li>
-            <li>Useful tools and resources</li>
+          <li><a href="#">ESPN Player Stats</a></li>
+          <li><a href="#">FantasyPros Rankings</a></li>
+          <li><a href="#">NFL Schedule</a></li>
+          <li><a href="#">Team Depth Charts</a></li>
+          <li><a href="#">Bye Week Tracker</a></li>
+          <li><a href="#">Trade Analyzer</a></li>
         </ul>
-    </section>
+        <figure class="sidebar-image">
+          <img src="images/play.jpg" alt="Football strategy and analysis">
+          <figcaption>Strategy & analysis</figcaption>
+        </figure>
+      </aside>
+    </main>
 
-    <section class="cta">
-        <a href="advice.html" class="button">Get Advice</a>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2025 Fantasy Football Central</p>
-</footer>
-
+    <footer>
+      <p>mgirar82@stu.jjc.edu | © 2025 Fantasy Football | <a href="#">Privacy Policy</a></p>
+    </footer>
+  </div>
 </body>
 </html>
 
