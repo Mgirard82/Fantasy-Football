@@ -7,161 +7,156 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div id="wrapper">
+    <header>
+      <div class="header-container">
+        <img src="images/Logo.png" alt="Fantasy Football Logo" class="logo">
+        <h1>Fantasy Football Team & Recommendations</h1>
+      </div>
+      <div class="header-controls">
+        <input type="search" placeholder="Search Players..." aria-label="Search players">
+        <nav>
+          <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="myteam.html">My Team</a></li>
+            <li><a href="advice.html">Advice</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<header>
-  <div class="header-container">
-    <img src="images/Logo.png" alt="Fantasy Football Logo" class="logo">
-    <h1>Fantasy Football Team & Recommendations</h1>
-  </div>
+    <main>
+      <section class="main-section two-column">
+        <h2>My Starting Roster</h2>
+        <p>Here is my current starting lineup for Week 8. The table below shows my key players, their positions, the opposing team, and their projected points.</p>
 
-  <input type="text" placeholder="Search Players...">
-
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="myteam.html">My Team</a></li>
-      <li><a href="advice.html">Advice</a></li>
-      <li><a href="resources.html">Resources</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <div class="content-wrapper">
-
-    <section class="main-section">
-      <h2>My Starting Roster</h2>
-      <p>Here is my current starting lineup for Week 8. The table below shows my key players, their positions, the opposing team, and their projected points.</p>
-
-      <div class="category-box">
-        <div class="category-header">
-          <img src="images/waterboys.jpg" alt="Waterboys Team Logo" class="team-logo">
-          <h3>WaWaWaterboys</h3>
+        <div class="category-box">
+          <div class="category-header">
+            <img src="images/waterboys.jpg" alt="Waterboys Team Logo" class="team-logo">
+            <h3>WaWaWaterboys</h3>
+          </div>
+          <p>My current week starters and their matchups</p>
         </div>
-        <p>My current week starters and their matchups</p>
-      </div>
 
-      <table class="roster-table">
-        <thead>
-          <tr>
-            <th>Position</th>
-            <th>Player Name</th>
-            <th>NFL Team</th>
-            <th>Opponent</th>
-            <th>Projected Points</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>QB</td>
-            <td>Baker Mayfield</td>
-            <td>TB</td>
-            <td>@ NO</td>
-            <td>21.3</td>
-          </tr>
-          <tr>
-            <td>RB</td>
-            <td>De'Von Achane</td>
-            <td>MIA</td>
-            <td>@ ATL</td>
-            <td>15.1</td>
-          </tr>
-          <tr>
-            <td>RB</td>
-            <td>Saquon Barkley</td>
-            <td>PHI</td>
-            <td>vs NYG</td>
-            <td>14.3</td>
-          </tr>
-          <tr>
-            <td>WR</td>
-            <td>Ja'Marr Chase</td>
-            <td>CIN</td>
-            <td>vs NYJ</td>
-            <td>12.1</td>
-          </tr>
-          <tr>
-            <td>WR</td>
-            <td>Stefon Diggs</td>
-            <td>NE</td>
-            <td>vs CLE</td>
-            <td>6.5</td>
-          </tr>
-          <tr>
-            <td>WR</td>
-            <td>Matthew Golden</td>
-            <td>GB</td>
-            <td>@ PIT</td>
-            <td>6.2</td>
-          </tr>
-          <tr>
-            <td>TE</td>
-            <td>Tyler Warren</td>
-            <td>KC</td>
-            <td>vs SF</td>
-            <td>11.0</td>
-          </tr>
-          <tr>
-            <td>FLEX</td>
-            <td>Isiah Pacheco</td>
-            <td>KC</td>
-            <td>vs WAS</td>
-            <td>7.6</td>
-          </tr>
-          <tr>
-            <td>K</td>
-            <td>John Parker Romo</td>
-            <td>ATL</td>
-            <td>vs MIA</td>
-            <td>10.4</td>
-          </tr>
-          <tr>
-            <td>D</td>
-            <td>BUCCANEERS</td>
-            <td>TB</td>
-            <td>@ NO</td>
-            <td>10.2</td>
-          </tr>
-        </tbody>
-      </table>
+        <table class="roster-table">
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Player Name</th>
+              <th>NFL Team</th>
+              <th>Opponent</th>
+              <th>Projected Points</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>QB</td>
+              <td>Baker Mayfield</td>
+              <td>TB</td>
+              <td>@ NO</td>
+              <td>21.3</td>
+            </tr>
+            <tr>
+              <td>RB</td>
+              <td>De'von Achane</td>
+              <td>MIA</td>
+              <td>@ ATL</td>
+              <td>15.1</td>
+            </tr>
+            <tr>
+              <td>RB</td>
+              <td>Saquan Barkley</td>
+              <td>PHI</td>
+              <td>vs NYG</td>
+              <td>14.3</td>
+            </tr>
+            <tr>
+              <td>WR</td>
+              <td>Ja'Marr Chase</td>
+              <td>CIN</td>
+              <td>vs NYJ</td>
+              <td>12.1</td>
+            </tr>
+            <tr>
+              <td>WR</td>
+              <td>Stefon Diggs</td>
+              <td>NE</td>
+              <td>vs CLE</td>
+              <td>6.5</td>
+            </tr>
+            <tr>
+              <td>WR</td>
+              <td>Matthew Golden</td>
+              <td>GB</td>
+              <td>@ PIT</td>
+              <td>6.2</td>
+            </tr>
+            <tr>
+              <td>TE</td>
+              <td>Tyler Warren</td>
+              <td>KC</td>
+              <td>vs SF</td>
+              <td>11.0</td>
+            </tr>
+            <tr>
+              <td>FLEX</td>
+              <td>Isiah Pacheco</td>
+              <td>KC</td>
+              <td>vs WAS</td>
+              <td>7.6</td>
+            </tr>
+            <tr>
+              <td>K</td>
+              <td>John Parker Romo</td>
+              <td>ATL</td>
+              <td>vs MIA</td>
+              <td>10.4</td>
+            </tr>
+            <tr>
+              <td>D</td>
+              <td>BUCCANEERS</td>
+              <td>TB</td>
+              <td>@ NO</td>
+              <td>10.2</td>
+            </tr>
+          </tbody>
+        </table>
 
-      <div class="subheadings">
-        <h4>Subheading: Roster Analysis</h4>
-        <p>My team shows strong RB depth with Achane and Barkley, while my WR corps features elite talent in Chase.</p>
+        <div class="subheadings">
+          <h4>Roster Analysis</h4>
+          <p>Strong RB depth with Achane and Barkley. WR corps features elite talent in Chase.</p>
+          <h4>Week 7 Outlook</h4>
+          <p>Favorable matchups for Mayfield and Buccaneers defense against the Saints.</p>
+        </div>
 
-        <h4>Subheading: Week 7 Outlook</h4>
-        <p>Favorable matchups for Mayfield and my Buccaneers defense against the Saints.</p>
-      </div>
+        <div class="rankings">
+          <h3>Team Strengths</h3>
+          <ul>
+            <li><strong>RB Depth:</strong> Achane & Barkley</li>
+            <li><strong>WR1:</strong> Ja'Marr Chase</li>
+            <li><strong>QB Consistency:</strong> Baker Mayfield</li>
+          </ul>
+        </div>
+      </section>
 
-      <div class="rankings">
-        <h3>Team Strengths</h3>
+      <aside class="quick-links">
+        <h3>Team Management</h3>
         <ul>
-          <li><strong>RB Depth:</strong> Achane & Barkley</li>
-          <li><strong>WR1:</strong> Ja'Marr Chase</li>
-          <li><strong>QB Consistency:</strong> Baker Mayfield</li>
+          <li><a href="#">Bench Players</a></li>
+          <li><a href="#">Trade Offers</a></li>
+          <li><a href="#">Waiver Wire</a></li>
+          <li><a href="#">Injury Report</a></li>
+          <li><a href="#">Bye Week Tracker</a></li>
+          <li><a href="#">Trade Analyzer</a></li>
+          <li><a href="#">Playoff Schedule</a></li>
         </ul>
-      </div>
-    </section>
+      </aside>
+    </main>
 
-    <aside class="quick-links">
-      <h3>Team Management</h3>
-      <ul>
-        <li><a href="#">Bench Players</a></li>
-        <li><a href="#">Trade Offers</a></li>
-        <li><a href="#">Waiver Wire</a></li>
-        <li><a href="#">Injury Report</a></li>
-        <li><a href="#">Bye Week Tracker</a></li>
-        <li><a href="#">Trade Analyzer</a></li>
-        <li><a href="#">Playoff Schedule</a></li>
-      </ul>
-    </aside>
-
+    <footer>
+      <p>mgirar82@stu.jjc.edu | © 2025 Fantasy Football | <a href="#">Privacy Policy</a></p>
+    </footer>
   </div>
-</main>
-
-<footer>
-  <p>mgirar82@stu.jjc.edu | © 2025 Fantasy Football | <a href="#">Privacy Policy</a></p>
-</footer>
-
 </body>
 </html>
