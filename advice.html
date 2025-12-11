@@ -1,120 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Get Advice - Fantasy Football</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fantasy Football Advice</title>
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <img src="images/Logo.png" alt="Fantasy Football Logo" class="logo">
-      <h1>Fantasy Football Team & Recommendations</h1>
-    </div>
-    <input type="text" placeholder="Search Players...">
+
+<header>
+    <h1>Fantasy Advice</h1>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="myteam.html">My Team</a></li>
-        <li><a href="advice.html">Advice</a></li>
-        <li><a href="resources.html">Resources</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <div class="content-wrapper">
-      <section class="main-section">
-        <h2>Fantasy Football Expert Advice</h2>
-        <p>Get personalized recommendations for your lineup decisions, trade evaluations, and waiver wire pickups from our expert analysis system.</p>
-
-        <div class="category-box">
-          <h3>Advice Categories</h3>
-          <ul>
-            <li>Start/Sit Recommendations</li>
-            <li>Trade Analysis</li>
-            <li>Waiver Wire Targets</li>
-          </ul>
-        </div>
-
-        <div class="subheadings">
-          <h4>Start/Sit Decisions</h4>
-          <p>Struggling with lineup choices? Our experts analyze matchups, injuries, and trends to help you make the right start/sit decisions each week.</p>
-
-          <h4>Trade Evaluations</h4>
-          <p>Not sure if a trade offer benefits your team? Get expert analysis on player value and long-term implications.</p>
-        </div>
-
-        <!-- REQUIRED FORM -->
-        <form class="advice-form" action="#" method="post">
-          <fieldset>
-            <legend>Request Personalized Advice</legend>
-            
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="question-type">Type of Advice Needed:</label>
-            <select id="question-type" name="question_type" required>
-              <option value="">Select one...</option>
-              <option value="start-sit">Start/Sit Decision</option>
-              <option value="trade">Trade Analysis</option>
-              <option value="waiver">Waiver Wire Pickup</option>
-              <option value="draft">Draft Strategy</option>
-              <option value="other">Other</option>
-            </select>
-            
-            <label for="players-involved">Players Involved:</label>
-            <input type="text" id="players-involved" name="players_involved" placeholder="e.g., Mahomes vs. Allen, McCaffrey trade offer">
-            
-            <label for="league-settings">League Settings & Context:</label>
-            <textarea id="league-settings" name="league_settings" rows="4" placeholder="e.g., 12-team PPR, I'm 4-2, need WR help..."></textarea>
-          </fieldset>
-          
-          <input type="submit" value="Get Expert Advice">
-        </form>
-        <!-- END FORM -->
-
-        <div class="rankings">
-          <h3>This Week's Hot Tips</h3>
-          <ul>
-            <li><strong>Start:</strong> Players vs. bottom-10 defenses</li>
-            <li><strong>Sit:</strong> Players in timeshares</li>
-            <li><strong>Add:</strong> Handcuff RBs for your starters</li>
-          </ul>
-        </div>
-
-        <div class="stats">
-          <h3>Advice Success Rate</h3>
-          <p>Our expert recommendations have helped fantasy managers improve their win rate by 23% this season.</p>
-        </div>
-      </section>
-
-      <aside class="quick-links">
-        <h3>Quick Advice Tools</h3>
         <ul>
-          <li><a href="#">Start/Sit Tool</a></li>
-          <li><a href="#">Trade Calculator</a></li>
-          <li><a href="#">Waiver Wire Rankings</a></li>
-          <li><a href="#">Injury Updates</a></li>
-          <li><a href="#">Expert Rankings</a></li>
-          <li><a href="#">Matchup Analysis</a></li>
-          <li><a href="#">Bye Week Planner</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="myteam.html">My Team</a></li>
+            <li><a href="advice.html">Advice</a></li>
+            <li><a href="resources.html">Resources</a></li>
         </ul>
-        
-       
-        <div class="sidebar-image">
-          <img src="images/play.jpg" alt="Football strategy and analysis" style="width: 100%; margin-top: 20px; border-radius: 8px;">
-        </div>
-      </aside>
-    </div>
-  </main>
+    </nav>
+</header>
 
-  <footer>
-    <p>mgirar82@stu.jjc.edu | © 2025 Fantasy Football | <a href="#">Privacy Policy</a></p>
-  </footer>
+<main>
+    <section class="video-section">
+        <h2>Weekly Strategy Tips</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XhrBapdhLEc" allowfullscreen></iframe>
+    </section>
+
+    <section class="tips">
+        <h2>Simple Advice</h2>
+        <ul>
+            <li>Start players with strong matchups.</li>
+            <li>Target consistent performers over boom-or-bust options.</li>
+            <li>Monitor injury reports daily.</li>
+            <li>Use your bench wisely and plan ahead.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Fantasy Football Central</p>
+</footer>
+
 </body>
 </html>
